@@ -197,18 +197,3 @@ Start-Process "http://localhost:8000/docs"
 ```
 
 ---
-
-## 8. Faculty Demonstration Checklist
-
-Use this checklist during academic project evaluation:
-
-- [x] **Dataset Ingestion:** Demonstrate loading the UCI Household benchmark dataset and viewing the data quality report with missing `'?'` counts and sampling interval detection.
-- [x] **Overview Dashboard:** Show total kWh, average daily demand, 24h diurnal load curve, and active XGBoost forecast.
-- [x] **What-If Simulation:** Move the reduction slider (e.g. to 15%) and show real-time mathematical calculation of energy savings, cost difference, and CO₂ reduction. Save and compare multiple scenarios.
-- [x] **Household Digital Twin (Innovation 1):** Show the unified synchronized chart combining historical averages, XGBoost predictions, and what-if overlays with uncertainty bounds.
-- [x] **XGBoost Forecasting:** Demonstrate chronological train/val/test split and examine MAE, RMSE, and $R^2$ metrics on genuinely held-out observations.
-- [x] **Uncertainty-Aware Alerts (Innovation 2):** Adjust the Isolation Forest contamination slider and demonstrate how alerts distinguish low-uncertainty statistical anomalies from high-uncertainty variances.
-- [x] **Explainable AI:** Review the global TreeSHAP feature importance ranking and inspect the local instance waterfall contribution plot and LIME rule weights.
-- [x] **Carbon Analysis & Sustainability Score:** Inspect the 4-part scoring breakdown (Daily Efficiency, Peak Load Regularity, Carbon Profile, and Goal Alignment).
-- [x] **Multi-Objective Optimizer (Innovation 3):** Adjust the kWh vs Cost vs CO₂ priority sliders and demonstrate how recommendations dynamically re-rank according to user trade-offs.
-- [x] **Audit Export:** Generate and download the official technical audit report in JSON, export raw consumption CSV, or print the report view.
