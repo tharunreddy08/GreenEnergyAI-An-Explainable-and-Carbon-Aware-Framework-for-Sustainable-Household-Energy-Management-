@@ -1,0 +1,8 @@
+{
+  "name": "GreenEnergyAI: AI-Powered Household Energy Management System",
+  "description": "Intelligent Energy Insights for a Sustainable Home. Real-time historical analytics, XGBoost forecasting, Isolation Forest anomaly detection, SHAP & LIME explainable AI, what-if scenarios, household digital twin, uncertainty-aware alerts, and multi-objective recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
